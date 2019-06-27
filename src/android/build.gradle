@@ -8,5 +8,5 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:customtabs:27.1.1'
+    compile 'androidx.browser:browser:1.0.0'
 }
