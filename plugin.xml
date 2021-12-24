@@ -30,16 +30,4 @@
     <resource-file src="src/android/src/res/anim/slide_out_left.xml" target="res/anim/slide_out_left.xml" />
     <resource-file src="src/android/src/res/anim/slide_out_right.xml" target="res/anim/slide_out_right.xml" />
   </platform>
-
-  <platform name="ios">
-        <config-file target="config.xml" parent="/*">
-            <feature name="ColoredBrowserTabs">
-                <param name="ios-package" value="ColoredBrowserTabs" />
-            </feature>
-        </config-file>
-        <dependency id="cordova-plugin-add-swift-support" spec="~1.7.1" />
-        <source-file src="src/ios/ColoredBrowserTabs.swift" />
-
-        <framework src="SafariServices.framework" weak="true"/>
-    </platform>
 </plugin>
